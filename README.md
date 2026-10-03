@@ -31,8 +31,12 @@ In the 120–130 GeV window: data = 36, background = 21.4, signal = 8.0.
 This is a rough event count; no systematic uncertainties are included.
 
 ## Open question
-Data exceeds the simulation at about 85–95 GeV. A possible cause is low
-statistics in the Z/ttbar simulation samples; this has not been checked yet.
+Data exceeds the simulation at about 85–95 GeV (bins 85–90 and 90–95 GeV:
+data 28 and 39 vs MC 17.9 and 21.7; rough pulls 1.9 and 2.8, including only
+MC statistical uncertainty). I first suspected low MC statistics, but the MC
+statistical uncertainty is small (< 1 event per bin), so this does not
+explain the difference. The cause is not yet identified. This region is
+away from the Higgs signal window (120–130 GeV).
 
 ## Reproduce
 Click the Colab badge above and choose Runtime → Run all.
