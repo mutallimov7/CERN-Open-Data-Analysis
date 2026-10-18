@@ -68,6 +68,7 @@ Split: 60/20/20, stratified by sample.
   corrections are not distinguishable (difference CI −0.006–0.075).
 - ECE is reported next to BSS because at a 2.4% signal fraction ECE alone is
   uninformative.
+  ![Reliability diagram](reliability_test.png)
 
 ### Mass dependence
 - The score is correlated with $m_{4\ell}$ although $m_{4\ell}$ is not an input:
@@ -77,6 +78,7 @@ Split: 60/20/20, stratified by sample.
   statistics by about 16×, so the two effects cannot be separated.
 - A BDT using $m_{4\ell}$ alone (AUC 0.972) beats the kinematic BDT (AUC 0.933);
   it is therefore not a mass-blind classifier.
+  ![Score vs m4l](score_vs_m4l.png)
 
 ### Selection comparison
 5-fold cross-fitting (every event scored out-of-fold once), thresholds set at a
