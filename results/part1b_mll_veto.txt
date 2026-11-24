@@ -1,0 +1,24 @@
+Part 1 selection:        data events = 507  (official notebook: 507)
+Part 1b (m_ll > 5 GeV): data events = 436  (removed 71); MC weighted yield 397.8 -> 363.0
+MC removed by the veto, by group: Signal (mH=125): 0.08, Z, ttbar bkg: 25.11, ZZ* bkg: 9.59
+
+--- Windows before / after the veto (MC statistical uncertainty only, Poisson for data) ---
+Part 1              85- 95: data= 67  MC= 39.61 +- 0.69 (signal  0.03)  data/MC= 1.69  p(N>=obs)=4.5e-05
+Part 1b (veto)      85- 95: data= 41  MC= 33.41 +- 0.62 (signal  0.03)  data/MC= 1.23  p(N>=obs)=0.11
+Part 1             120-130: data= 36  MC= 29.44 +- 2.24 (signal  8.04)  data/MC= 1.22  p(N>=obs)=0.13
+Part 1b (veto)     120-130: data= 29  MC= 24.48 +- 1.80 (signal  7.98)  data/MC= 1.18  p(N>=obs)=0.2
+
+Remaining 85-95 GeV excess after the veto: data 41 vs MC 33.41 (difference +7.6 events; ratio 1.23)
+
+bin [GeV]   data   MC     MCerr   p(N>=obs)
+ 80- 85       4   3.15   0.16   0.39
+ 85- 90      18  15.01   0.42   0.25
+ 90- 95      23  18.40   0.45   0.17
+ 95-100       8   4.94   0.58   0.13
+100-105       2   3.39   0.63   0.85
+105-110       2   5.56   0.97   0.97
+110-115       6   6.13   0.99   0.57
+115-120       6  10.15   1.25   0.94
+120-125      19  14.65   1.44   0.16
+125-130      10   9.83   1.09   0.52
+smallest single-bin p over 34 bins after the veto: 0.022 (x34 trials ~ 0.74)
