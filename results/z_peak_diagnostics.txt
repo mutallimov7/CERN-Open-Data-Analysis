@@ -1,0 +1,54 @@
+Selected data events: 507 (official notebook: 507)
+
+Window (85.0, 95.0): data=67, MC=39.61 +- 0.69 (stat), data/MC=1.69
+Poisson p(N>=67 | mu=39.61) = 4.5e-05  (MC stat only, no systematics)
+Smallest single-bin Poisson p over 34 bins of 5 GeV: 0.00052 (x34 trials ~ 0.018)
+
+--- MC yield in the window by group ---
+Signal (mH=125)        0.03 +- 0.00  (1100 raw events)
+Z, ttbar bkg           2.61 +- 0.62  (22 raw events)
+ZZ* bkg               36.98 +- 0.30  (67788 raw events)
+
+--- by channel (85-95 GeV) ---
+channel        data       MC   MCerr  data/MC    68% CI on ratio  p(N>=obs)
+2e2mu            41    23.92    0.64     1.71       [1.45, 2.03]    0.00093
+4e               13    10.39    0.20     1.25       [0.91, 1.70]       0.25
+4mu              13     5.31    0.16     2.45       [1.78, 3.34]     0.0033
+
+--- data by period (events in window / all selected events) ---
+data_A: 7 / 27  (0.259)
+data_B: 6 / 86  (0.070)
+data_C: 24 / 146  (0.164)
+data_D: 30 / 248  (0.121)
+(weighted MC fraction in window: 0.100; data overall: 0.132)
+
+--- Z1/Z2 pair masses and softest-lepton pT in the window (medians) ---
+data           mZ1=58.7  mZ2=7.8  pt4=8.9  pt3=12.8
+MC (weighted)  mZ1=57.8  mZ2=9.5  pt4=9.0  pt3=13.4
+
+--- Low m(Z2): data vs MC in the window, and MC edge (all m4l) ---
+mZ2  0- 2: data=  8  MC= -0.00 +- 0.00 (raw 2)
+mZ2  2- 3: data=  5  MC=  0.28 +- 0.22 (raw 10)
+mZ2  3- 4: data=  7  MC=  0.65 +- 0.15 (raw 763)
+mZ2  4- 5: data=  3  MC=  4.43 +- 0.10 (raw 7342)
+mZ2  5- 6: data=  5  MC=  4.14 +- 0.10 (raw 7168)
+mZ2  6- 8: data=  6  MC=  6.61 +- 0.13 (raw 11802)
+mZ2  8-12: data= 10  MC=  8.20 +- 0.17 (raw 15539)
+mZ2 12-20: data= 14  MC=  8.94 +- 0.37 (raw 15903)
+mZ2 20-60: data=  9  MC=  5.91 +- 0.39 (raw 10371)
+ZZ* MC, all m4l, mZ2 per 1 GeV (0..11): [0.01, -0.0, 0.02, 0.85, 7.46, 7.27, 6.46, 5.68, 4.89, 4.46, 3.83]
+data,   all m4l, mZ2 per 1 GeV (0..11): [12, 8, 9, 23, 8, 10, 12, 8, 10, 8, 7]
+data, all m4l, mZ2 per 0.25 GeV (2.5..4.0): [3, 4, 11, 4, 3, 5] (J/psi mass = 3.097 GeV)
+data, all m4l, mZ2 in [2.9, 3.3): 12;  [2.5, 2.9): 6;  [3.3, 3.7): 7
+
+--- Window 85-95 and Higgs window 120-130 with and without low m(Z2) ---
+85-95    all     : data= 67  MC total= 39.61 (of which signal  0.03)  data/MC= 1.69  p(N>=obs)=4.5e-05
+85-95    no SFOS : data=  0  MC total=  0.45 (of which signal  0.00)  data/MC= 0.00  p(N>=obs)=1
+85-95    mZ2<5   : data= 23  MC total=  5.36 (of which signal  0.00)  data/MC= 4.29  p(N>=obs)=1.4e-08
+85-95    mZ2>=5  : data= 44  MC total= 33.80 (of which signal  0.03)  data/MC= 1.30  p(N>=obs)=0.052
+85-95    mZ2>=12 : data= 23  MC total= 14.85 (of which signal  0.02)  data/MC= 1.55  p(N>=obs)=0.03
+120-130  all     : data= 36  MC total= 29.44 (of which signal  8.04)  data/MC= 1.22  p(N>=obs)=0.13
+120-130  no SFOS : data=  0  MC total=  0.78 (of which signal  0.00)  data/MC= 0.00  p(N>=obs)=1
+120-130  mZ2<5   : data=  7  MC total=  4.93 (of which signal  0.06)  data/MC= 1.42  p(N>=obs)=0.23
+120-130  mZ2>=5  : data= 29  MC total= 23.72 (of which signal  7.99)  data/MC= 1.22  p(N>=obs)=0.16
+120-130  mZ2>=12 : data= 21  MC total= 19.59 (of which signal  7.40)  data/MC= 1.07  p(N>=obs)=0.4

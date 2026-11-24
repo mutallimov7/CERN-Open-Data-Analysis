@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below. The underlying data are the ATLAS Open Data (CC0), DOI 10.7483/OPENDATA.ATLAS.2Y1T.TLGL."
+title: "H -> ZZ* -> 4l with ATLAS Open Data: reproduction, classifier audit and data/MC study"
+type: software
+authors:
+  - family-names: "Mutallimov"
+    given-names: "Eldar"
+repository-code: "https://github.com/mutallimov7/CERN-Open-Data-Analysis"
+license: MIT
+keywords:
+  - ATLAS Open Data
+  - Higgs boson
+  - calibration
+  - leakage audit
